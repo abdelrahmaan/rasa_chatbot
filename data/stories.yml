@@ -1,0 +1,189 @@
+version: "2.0"
+
+stories:
+
+# [USA, Greece, Sweden, Australia, Finland, Japan, Russia, India, Egypt] = 9
+
+# USA path
+- story: usa path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: usa_capital
+  - action: utter_capital_of_usa
+  - intent: affirm
+  - action: utter_happy_one
+  - intent: usa_population
+  - action: utter_population_of_usa
+  - intent: affirm
+  - action: utter_happy_two
+  - intent: goodbye
+  - action: utter_goodbye
+
+# -----------------------#
+# Greece path
+- story: greece path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: greece_capital
+  - action: utter_capital_of_greece
+  - intent: affirm
+  - action: utter_happy_one
+  - intent: greece_population
+  - action: utter_population_of_greece
+  - intent: affirm
+  - action: utter_happy_two
+  - intent: goodbye
+  - action: utter_goodbye
+
+
+
+# -----------------------#
+# Sweden path
+- story: sweden path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: sweden_capital
+  - action: utter_capital_of_sweden
+  - intent: affirm
+  - action: utter_happy_one
+  - intent: sweden_population
+  - action: utter_population_of_sweden
+  - intent: affirm
+  - action: utter_happy_two
+  - intent: goodbye
+  - action: utter_goodbye
+
+
+# -----------------------#
+
+
+# australia path
+- story: australia path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: australia_capital
+  - action: utter_capital_of_australia
+  - intent: affirm
+  - action: utter_happy_one
+  - intent: australia_population
+  - action: utter_population_of_australia
+  - intent: affirm
+  - action: utter_happy_two
+  - intent: goodbye
+  - action: utter_goodbye
+
+
+# -----------------------#
+# finland path
+- story: finland path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: finland_capital
+  - action: utter_capital_of_finland
+  - intent: affirm
+  - action: utter_happy_one
+  - intent: finland_population
+  - action: utter_population_of_finland
+  - intent: affirm
+  - action: utter_happy_two
+  - intent: goodbye
+  - action: utter_goodbye
+
+
+# -----------------------#
+# japan path
+- story: japan path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: japan_capital
+  - action: utter_capital_of_japan
+  - intent: affirm
+  - action: utter_happy_one
+  - intent: japan_population
+  - action: utter_population_of_japan
+  - intent: affirm
+  - action: utter_happy_two
+  - intent: goodbye
+  - action: utter_goodbye
+
+
+# -----------------------#
+# russia path
+- story: russia path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: russia_capital
+  - action: utter_capital_of_russia
+  - intent: affirm
+  - action: utter_happy_one
+  - intent: russia_population
+  - action: utter_population_of_russia
+  - intent: affirm
+  - action: utter_happy_two
+  - intent: goodbye
+  - action: utter_goodbye
+
+
+# -----------------------#
+# india path
+- story: india path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: india_capital
+  - action: utter_capital_of_india
+  - intent: affirm
+  - action: utter_happy_one
+  - intent: india_population
+  - action: utter_population_of_india
+  - intent: affirm
+  - action: utter_happy_two
+  - intent: goodbye
+  - action: utter_goodbye
+
+
+# -----------------------#
+# egypt path
+- story: egypt path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: egypt_capital
+  - action: utter_capital_of_egypt
+  - intent: affirm
+  - action: utter_happy_one
+  - intent: egypt_population
+  - action: utter_population_of_egypt
+  - intent: affirm
+  - action: utter_happy_two
+  - intent: goodbye
+  - action: utter_goodbye
+
+
+# -----------------------#
+# - story: sad path 1
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: mood_unhappy
+#   - action: utter_cheer_up
+#   - action: utter_did_that_help
+#   - intent: affirm
+#   - action: utter_happy
+
+# - story: sad path 2
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: mood_unhappy
+#   - action: utter_cheer_up
+#   - action: utter_did_that_help
+#   - intent: deny
+#   - action: utter_goodbye

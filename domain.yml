@@ -1,0 +1,135 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - usa_capital
+  - greece_capital
+  - sweden_capital
+  - australia_capital
+  - finland_capital
+  - japan_capital
+  - russia_capital
+  - india_capital
+  - egypt_capital
+  - usa_population
+  - greece_population
+  - sweden_population
+  - australia_population
+  - finland_population
+  - japan_population
+  - russia_population
+  - india_population
+  - egypt_population
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?\nAsking me for country capital name or the population of it."
+  # - text: "Asking me for country capital name or the population of it."
+
+# [USA, Greece, Sweden, Australia, Finland, Japan, Russia, India, Egypt]    
+
+#----------------------------------#
+  utter_capital_of_usa:
+  - text: "The capital of USA is Washington"
+
+  utter_population_of_usa:
+  - text: "The population of USA is 331,002,651"
+
+#----------------------------------#
+
+  utter_capital_of_greece:
+  - text: "The capital of Greece is Athens"
+
+  utter_population_of_greece:
+  - text: "The population of Greece is 10,423,054"
+
+#----------------------------------#
+
+  utter_capital_of_sweden:
+  - text: "The capital of Sweden is Stockholm"
+
+  utter_population_of_sweden:
+  - text: "The population of Sweden is 10,099,265"
+
+#----------------------------------#
+
+  utter_capital_of_australia:
+  - text: "The capital of Australia is Canberra"
+
+  utter_population_of_australia:
+  - text: "The population of Australia is 25,499,884"
+
+#----------------------------------#
+
+  utter_capital_of_finland:
+  - text: "The capital of Finland is Helsinki"
+
+  utter_population_of_finland:
+  - text: "The population of Finland is 5,540,720"
+
+#----------------------------------#
+
+  utter_capital_of_japan:
+  - text: "The capital of japan is Tokyo"
+
+  utter_population_of_japan:
+  - text: "The population of japan is 126,476,461"
+
+#----------------------------------#
+
+  utter_capital_of_russia:
+  - text: "The capital of Russia is Moscow"
+
+  utter_population_of_russia:
+  - text: "The population of Russia is 145,934,462"
+
+#----------------------------------#
+
+  utter_capital_of_india:
+  - text: "The capital of India is New Delhi"
+
+  utter_population_of_india:
+  - text: "The population of India is 1,380,004,385"
+
+#----------------------------------#
+
+  utter_capital_of_egypt:
+  - text: "The capital of Egypt is Cairo"
+
+  utter_population_of_egypt:
+  - text: "The population of Egypt is 102,334,404"
+  
+#----------------------------------#
+
+
+
+
+
+
+
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy_one:
+  - text: "Great, carry on!"
+
+  utter_happy_two:
+  - text: "Great, thanks!"
+
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

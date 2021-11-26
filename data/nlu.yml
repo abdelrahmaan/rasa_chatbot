@@ -1,0 +1,237 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+    - good
+    - great
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+#----------------------------------------------------------------------#
+# [USA, Greece, Sweden, Australia, Finland, Japan, Russia, India, Egypt] = 9
+- intent: usa_capital
+  examples: |
+    - What is the capital of USA?
+    - What's the capital of USA?
+    - Country name of USA?
+    - Tell me the capital of the USA
+#-------------------------------------#
+- intent: greece_capital
+  examples: |
+    - What is the capital of Greece?
+    - What's the capital of Greece?
+    - Country name of Greece?
+    - Tell me the capital of the Greece
+#-------------------------------------#
+- intent: sweden_capital
+  examples: |
+    - What is the capital of Sweden?
+    - What's the capital of Sweden?
+    - Country name of Sweden?
+    - Tell me the capital of the Sweden
+#-------------------------------------#
+- intent: australia_capital
+  examples: |
+    - What is the capital of Australia?
+    - What's the capital of Australia?
+    - Country name of Australia?
+    - Tell me the capital of the Australia
+#-------------------------------------#
+- intent: finland_capital
+  examples: |
+    - What is the capital of Finland?
+    - What's the capital of Finland?
+    - Country name of Finland?
+    - Tell me the capital of the Finland
+#-------------------------------------#
+- intent: japan_capital
+  examples: |
+    - What is the capital of Japan?
+    - What's the capital of Japan?
+    - Country name of Japan?
+    - Tell me the capital of the Japan
+#-------------------------------------#
+- intent: russia_capital
+  examples: |
+    - What is the capital of Russia?
+    - What's the capital of Russia?
+    - Country name of Russia?
+    - Tell me the capital of the Russia
+#-------------------------------------#
+- intent: india_capital
+  examples: |
+    - What is the capital of India?
+    - What's the capital of India?
+    - Country name of India?
+    - Tell me the capital of the India
+#-------------------------------------#
+- intent: egypt_capital
+  examples: |
+    - What is the capital of Egypt?
+    - What's the capital of Egypt?
+    - Country name of Egypt?
+    - Tell me the capital of the Egypt
+
+#----------------------------------------------------------------------#
+# [USA, Greece, Sweden, Australia, Finland, Japan, Russia, India, Egypt]    
+- intent: usa_population
+  examples: |
+    - What is the population of USA?
+    - What's the population of USA?
+    - population of USA?
+    - Tell me the population of USA
+#-------------------------------------#
+
+- intent: greece_population
+  examples: |
+    - What is the population of Greece?
+    - What's the population of Greece?
+    - population of Greece?
+    - Tell me the population of Greece
+#-------------------------------------#
+
+- intent: sweden_population
+  examples: |
+    - What is the population of Sweden?
+    - What's the population of Sweden?
+    - population of Sweden?
+    - Tell me the population of Sweden
+#-------------------------------------#
+
+- intent: australia_population
+  examples: |
+    - What is the population of Australia?
+    - What's the population of Australia?
+    - population of Australia?
+    - Tell me the population of Australia
+
+#-------------------------------------#
+- intent: finland_population
+  examples: |
+    - What is the population of Finland?
+    - What's the population of Finland?
+    - population of Finland?
+    - Tell me the population of Finland
+
+#-------------------------------------#
+
+- intent: japan_population
+  examples: |
+    - What is the population of Japan?
+    - What's the population of Japan?
+    - population of Japan?
+    - Tell me the population of Japan
+
+#-------------------------------------#
+
+- intent: russia_population
+  examples: |
+    - What is the population of Russia?
+    - What's the population of Russia?
+    - population of Russia?
+    - Tell me the population of Russia
+
+#-------------------------------------#
+
+- intent: india_population
+  examples: |
+    - What is the population of India?
+    - What's the population of India?
+    - population of India?
+    - Tell me the population of India
+
+#-------------------------------------#
+
+- intent: egypt_population
+  examples: |
+    - What is the population of Egypt?
+    - What's the population of Egypt?
+    - population of Egypt?
+    - Tell me the population of Egypt
+#-------------------------------------#
+
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
