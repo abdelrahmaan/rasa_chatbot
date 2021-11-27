@@ -16,9 +16,11 @@
 
 ### 2- Install RASA
 
-- For installing RASA `pip3 install rasa`
-- For initialized it `rasa init`
-- For running it to rest the code by terminal `rasa shell`
-- If i want to see how things going for getting the proba of every intent appear by the bot `rasa shell nlu`
-- If i add anything in any file, using this command for retrain the data `rasa train`
+- For upgrade rasa `pip3 install --upgrade rasa`
+- For create new assistant   `rasa init`
+- For train new model for your current assistant  `rasa train`
+- For help `rasa -h`
+- For to talk with the most recent model of your current assistant `rasa shell`
+- if i want to see how things going for getting the proba of every intent appear by the bot `rasa shell nlu`
+
 <!-- - We can make a python file for run custom code as `[actions.py](http://actions.py)` by `rasa run actions` -->
